@@ -1,0 +1,67 @@
+.date-input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: #808080;
+  transition: border-color linear 250ms;
+}
+
+.date-input:hover,
+.date-input:focus {
+  border-color: #000000;
+}
+
+.date-input:active {
+  border-color: #4e75ff;
+}
+
+.date-input:disabled {
+  border-color: #808080;
+}
+
+.date-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  color: #fff;
+  transition: background-color linear 250ms, color linear 250ms;
+}
+
+.date-btn:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.date-btn:disabled:hover {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.date-btn:hover,
+.date-btn:focus {
+  background-color: #6c8cff;
+  color: #fff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  letter-spacing: 0.04em;
+}
+
+.label {
+  font-size: 16px;
+}

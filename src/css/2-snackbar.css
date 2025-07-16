@@ -1,0 +1,40 @@
+.second-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 360px;
+}
+
+.second-label input {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px 8px 48px;
+  width: 360px;
+  border-radius: 4px;
+}
+
+fieldset input {
+  margin-right: 8px;
+}
+
+.form-btn {
+  padding: 8px 16px;
+  margin-top: 24px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  transition: background-color linear 250ms;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6c8cff;
+}
